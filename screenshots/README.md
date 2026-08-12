@@ -1,17 +1,28 @@
-# Screenshots
+# Agent Demonstration Screenshots
 
-Add screenshots of the prototype here.
+These screenshots demonstrate the current prototype of the **AI Cloud Security Policy Agent**.
 
-Before publishing, verify that screenshots do not contain:
+## What the Demo Shows
 
-- employer names,
-- internal URLs,
-- account IDs,
-- cloud account numbers,
-- API keys,
-- tokens,
-- proprietary security requirements,
-- confidential architecture,
-- or internal source code.
+The agent receives a structured cloud security requirement and performs a security feasibility assessment for Terraform Sentinel policy-as-code enforcement.
 
-Use only portfolio-safe demo data.
+The screenshots demonstrate:
+
+* The AI agent workflow
+* A structured AWS S3 security requirement submitted through the playground
+* Cloud security risk analysis
+* Terraform and Sentinel policy-as-code feasibility analysis
+* Recommended enforcement level
+* Exception and override considerations
+* Positive, negative, and edge-case testing recommendations
+* Technical limitations
+* Final feasibility recommendation
+
+## Current Prototype
+
+The current prototype demonstrates the core AI-assisted security analysis workflow.
+
+A future iteration will integrate **Retrieval-Augmented Generation (RAG)** using trusted AWS, Terraform, and Sentinel documentation to improve technical accuracy and reduce the risk of outdated or incorrect recommendations.
+
+> **Note:** All examples shown in this repository use synthetic, portfolio-safe security requirements and contain no proprietary employer information.
+
